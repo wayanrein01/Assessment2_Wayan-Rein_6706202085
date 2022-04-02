@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PERHITUNGAN</string>
+    <string name="penjelasan">Menghitung Jarak (s)</string>
+    <string name="MENU">MENU</string>
+    <string name="rumus">RJ (Rumus Jarak) <i>: s = v * t</i></string>
+    <string name="kecepatan"><i>kecepatan (v)</i></string>
+    <string name="waktu"><i>waktu (t)        </i></string>
+    <string name="jarak"><i>Jarak (s) </i></string>
+    <string name="Hitung">Hitung</string>
+    <string name="hasil_jarak">hs: %1$.2f</string>
+
+    <string name="kecepatan_invalid">kecepatan tidak boleh kosong.</string>
+    <string name="waktu_invalid">waktu tidak boleh kosong.</string>
+
+</resources>
