@@ -8,8 +8,17 @@
     <string name="jarak"><i>Jarak (s) </i></string>
     <string name="Hitung">Hitung</string>
     <string name="hasil_jarak">hs: %1$.2f</string>
+    <string name="hasil_waktu">ht: %1$.2f</string>
 
     <string name="kecepatan_invalid">kecepatan tidak boleh kosong.</string>
     <string name="waktu_invalid">waktu tidak boleh kosong.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hs">hs : Hasil Jarak</string>
+    <string name="ht">ht : Hasil Waktu</string>
+    <string name="hv">hv : Hasil Kecepatan</string>
+    <string name="m">m</string>
+    <string name="rumus_waktu">Rumus Waktu (t) : t = s ÷ v</string>
+    <string name="menghitungWaktu">Menghitung Waktu (t)</string>
 
 </resources>

@@ -5,35 +5,27 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import org.d3if2085.perhitungan.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var navController: NavController
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.Hitung.setOnClickListener { Perhitungan() }
-
-
+        navController = findNavController(R.id.fragmentContainerView)
+        NavigationUI.setupActionBarWithNavController(this, navController)
     }
 
-    private fun Perhitungan() {
-        val kecepatan = binding.kecepatanEditText.text.toString()
-        if (TextUtils.isEmpty(kecepatan)) {
-            Toast.makeText(this, R.string.kecepatan_invalid, Toast.LENGTH_LONG).show()
-            return
-        }
-
-        val waktu = binding.waktuEditText.text.toString()
-        if (TextUtils.isEmpty(waktu)) {
-            Toast.makeText(this, R.string.waktu_invalid, Toast.LENGTH_LONG).show()
-            return
-        }
-        val hs = kecepatan.toDouble() * waktu.toDouble()
-        binding.hsTextView.text = getString(R.string.hasil_jarak, hs.toDouble())
-
-
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp()
     }
+
+
 }

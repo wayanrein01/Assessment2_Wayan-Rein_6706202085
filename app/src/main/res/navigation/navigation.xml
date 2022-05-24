@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/kecepatanFragment"
+        android:name="org.d3if2085.perhitungan.JarakFragment"
+        android:label="fragment_kecepatan"
+        tools:layout="@layout/fragment_jarak" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if2085.perhitungan.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_kecepatanFragment"
+            app:destination="@id/kecepatanFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_waktuFragment2"
+            app:destination="@id/waktuFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_kecepatanFragment2"
+            app:destination="@id/kecepatanFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/waktuFragment2"
+        android:name="org.d3if2085.perhitungan.waktuFragment"
+        android:label="fragment_waktu"
+        tools:layout="@layout/fragment_waktu" />
+    <fragment
+        android:id="@+id/kecepatanFragment2"
+        android:name="org.d3if2085.perhitungan.KecepatanFragment"
+        android:label="fragment_kecepatan"
+        tools:layout="@layout/fragment_kecepatan" />
+</navigation>
