@@ -33,6 +33,10 @@ class HomeFragment : Fragment() {
         binding.kecepatan.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_kecepatanFragment2)
         }
+        binding.buttonTohistory.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_historyFragment)
+
+            }
     }
 
 }

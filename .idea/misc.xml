@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/fragment_history.xml" value="0.25" />
         <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/fragment_jarak.xml" value="0.25" />
         <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/fragment_kecepatan.xml" value="0.264" />
         <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/fragment_waktu.xml" value="0.2" />
+        <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/layout/item_history.xml" value="0.25" />
         <entry key="..\:/Assessment Mobpro/Perhitungan/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>

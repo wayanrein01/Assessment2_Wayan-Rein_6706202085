@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_homeFragment_to_kecepatanFragment2"
             app:destination="@id/kecepatanFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
     </fragment>
     <fragment
         android:id="@+id/waktuFragment2"
@@ -34,4 +37,9 @@
         android:name="org.d3if2085.perhitungan.KecepatanFragment"
         android:label="fragment_kecepatan"
         tools:layout="@layout/fragment_kecepatan" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="org.d3if2085.perhitungan.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
 </navigation>

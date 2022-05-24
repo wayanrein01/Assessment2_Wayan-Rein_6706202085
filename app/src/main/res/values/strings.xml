@@ -9,10 +9,11 @@
     <string name="Hitung">Hitung</string>
     <string name="hasil_jarak">hs: %1$.2f</string>
     <string name="hasil_waktu">ht: %1$.2f</string>
+    <string name="hasil_kecepatan">hv: %1$.2f</string>
+
 
     <string name="kecepatan_invalid">kecepatan tidak boleh kosong.</string>
     <string name="waktu_invalid">waktu tidak boleh kosong.</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hs">hs : Hasil Jarak</string>
     <string name="ht">ht : Hasil Waktu</string>
